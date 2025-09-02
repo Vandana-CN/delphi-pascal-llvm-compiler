@@ -1,0 +1,9 @@
+﻿site/node_modules/
+site/.vite/
+bin/
+*.class
+.antlr/
+.vscode/
+.DS_Store
+*.mp4
+*.mp4

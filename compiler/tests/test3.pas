@@ -1,0 +1,11 @@
+PROGRAM TEST3;
+VAR
+  i: INTEGER;
+BEGIN
+  FOR i := 1 TO 10 DO
+  BEGIN
+    IF i = 3 THEN BEGIN CONTINUE; END;
+    IF i = 7 THEN BEGIN BREAK; END;
+    writeln(i);
+  END;
+END.
